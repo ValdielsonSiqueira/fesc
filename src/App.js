@@ -59,6 +59,7 @@ class App extends React.Component{
     return(
       <div className="App">
         <header>
+          <h2>Todo List </h2>
         <form id="todolist-form" onSubmit= {this.addItem}>
         <input type="text" placeholder="Digite a tarefa"
         value={this.state.currentItem.text}

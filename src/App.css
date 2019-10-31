@@ -1,22 +1,43 @@
-.App {
-  text-align: center;
+body{
+  background-color: #fedc3d; 
 }
 
-.App-logo {
-  height: 40vmin;
+.App{
+  background-color: #0e0b16;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#todolist-form input{
+  background-color:white;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #0e0b16;
+
 }
 
-.App-link {
-  color: #09d3ac;
+#todolist-form input:placeholder{
+  color: #0e0b16;
+}
+
+#todolist-form input:focus, #todolist-form button:focus{
+  outline: none;
+}
+
+#todolist-form button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #01abaa;
+  cursor: pointer;
+  font-weight: bolder;
+  color:white;
+
 }

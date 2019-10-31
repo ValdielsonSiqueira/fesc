@@ -4,7 +4,7 @@ body{
 
 .App{
   background-color: #0e0b16;
-  min-height: 500px;
+  min-height: 600px;
   width: 400px;
   margin: 40px auto;
 }
@@ -13,7 +13,7 @@ h2{
   color: #fedc3d;
   font-size: 40px;
   text-align: center;
-  margin-top: 5px;
+  margin-top: 8px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 

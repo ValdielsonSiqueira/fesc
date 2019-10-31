@@ -4,12 +4,6 @@ import './App.css';
 
 import ListItems from  './list/ListItems';
 
-import { FaTrash } from 'react-icons/fa';
-
-//import { library } from "react-icons/fa";
-
-//library.add(FaTrash);
-
 class App extends React.Component{
   
   constructor(props){
@@ -60,10 +54,10 @@ class App extends React.Component{
       })
   }
 
+
   render(){  
     return(
       <div className="App">
-      
         <header>
         <form id="todolist-form" onSubmit= {this.addItem}>
         <input type="text" placeholder="Digite a tarefa"
